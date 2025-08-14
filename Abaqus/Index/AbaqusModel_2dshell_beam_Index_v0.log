@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.11)  14 AUG 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.11)  14 AUG 2025 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,70 +899,69 @@ Package pdftex.def Info: Figures/partition.png  used on input line 62.
 [1
 
 {C:/Users/trott/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures/sh
-ell_extrude_sketch.png> <./Figures/shell_extrude.png> <./Figures/partition_sket
-ch.png>]
-<Figures/set1.png, id=71, 1173.63469pt x 593.21625pt>
+ell_extrude_sketch.png> <./Figures/shell_extrude.png>]
+<Figures/set1.png, id=70, 1173.63469pt x 593.21625pt>
 File: Figures/set1.png Graphic file (type png)
 <use Figures/set1.png>
 Package pdftex.def Info: Figures/set1.png  used on input line 70.
 (pdftex.def)             Requested size: 289.07999pt x 146.11317pt.
-<Figures/CenterNode.png, id=73, 1139.75812pt x 592.46344pt>
+<Figures/CenterNode.png, id=72, 1139.75812pt x 592.46344pt>
 File: Figures/CenterNode.png Graphic file (type png)
 <use Figures/CenterNode.png>
 Package pdftex.def Info: Figures/CenterNode.png  used on input line 78.
 (pdftex.def)             Requested size: 289.07999pt x 150.26707pt.
-
+ [2 <./Figures/partition_sketch.png> <./Figures/partition.png> <./Figures/set1.
+png>]
 Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-<Figures/mesh.png, id=75, 856.70062pt x 481.8pt>
+<Figures/mesh.png, id=83, 856.70062pt x 481.8pt>
 File: Figures/mesh.png Graphic file (type png)
 <use Figures/mesh.png>
 Package pdftex.def Info: Figures/mesh.png  used on input line 91.
 (pdftex.def)             Requested size: 289.07999pt x 162.57474pt.
-[2 <./Figures/partition.png> <./Figures/set1.png> <./Figures/CenterNode.png>]
-<Figures/instance.png, id=87, 877.77937pt x 476.53032pt>
+<Figures/instance.png, id=85, 877.77937pt x 476.53032pt>
 File: Figures/instance.png Graphic file (type png)
 <use Figures/instance.png>
 Package pdftex.def Info: Figures/instance.png  used on input line 112.
 (pdftex.def)             Requested size: 289.07999pt x 156.93555pt.
-<Figures/instance_set1.png, id=89, 886.06032pt x 480.29437pt>
+[3 <./Figures/CenterNode.png> <./Figures/mesh.png>]
+<Figures/instance_set1.png, id=96, 886.06032pt x 480.29437pt>
 File: Figures/instance_set1.png Graphic file (type png)
 <use Figures/instance_set1.png>
 Package pdftex.def Info: Figures/instance_set1.png  used on input line 120.
 (pdftex.def)             Requested size: 289.07999pt x 156.70209pt.
-
-[3 <./Figures/mesh.png> <./Figures/instance.png>]
-<Figures/instance_set2.png, id=100, 894.34125pt x 481.8pt>
+<Figures/instance_set2.png, id=98, 894.34125pt x 481.8pt>
 File: Figures/instance_set2.png Graphic file (type png)
 <use Figures/instance_set2.png>
 Package pdftex.def Info: Figures/instance_set2.png  used on input line 128.
 (pdftex.def)             Requested size: 289.07999pt x 155.7377pt.
-<Figures/load1.png, id=103, 858.20625pt x 478.03593pt>
+ [4 <./Figures/instance.png> <./Figures/instance_set1.png> <./Figures/instance_
+set2.png>]
+<Figures/load1.png, id=110, 858.20625pt x 478.03593pt>
 File: Figures/load1.png Graphic file (type png)
 <use Figures/load1.png>
 Package pdftex.def Info: Figures/load1.png  used on input line 160.
 (pdftex.def)             Requested size: 289.07999pt x 161.02016pt.
- [4 <./Figures/instance_set1.png> <./Figures/instance_set2.png>]
-<Figures/fixed_ends.png, id=114, 892.83563pt x 477.28313pt>
+<Figures/fixed_ends.png, id=112, 892.83563pt x 477.28313pt>
 File: Figures/fixed_ends.png Graphic file (type png)
 <use Figures/fixed_ends.png>
 Package pdftex.def Info: Figures/fixed_ends.png  used on input line 170.
 (pdftex.def)             Requested size: 289.07999pt x 154.53255pt.
-
+ [5 <./Figures/load1.png> <./Figures/fixed_ends.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
-<Figures/Midpoint_U2displacement.png, id=116, 1155.56718pt x 590.95781pt>
+<Figures/Midpoint_U2displacement.png, id=123, 1155.56718pt x 590.95781pt>
 File: Figures/Midpoint_U2displacement.png Graphic file (type png)
 <use Figures/Midpoint_U2displacement.png>
 Package pdftex.def Info: Figures/Midpoint_U2displacement.png  used on input lin
 e 188.
 (pdftex.def)             Requested size: 433.62pt x 221.7529pt.
-[5 <./Figures/load1.png> <./Figures/fixed_ends.png>] [6 <./Figures/Midpoint_U2d
-isplacement.png>] (AbaqusModel_2dshell_beam_Index_v0.aux)
+[6 <./Figures/Midpoint_U2displacement.png>]
+(AbaqusModel_2dshell_beam_Index_v0.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -978,13 +977,13 @@ Here is how much of TeX's memory you used:
  46039 multiletter control sequences out of 15000+600000
  570551 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,107p,444b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,8n,107p,444b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/trott/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/trott/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/trott/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/trott/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr7.pfb>
-Output written on AbaqusModel_2dshell_beam_Index_v0.pdf (6 pages, 400276 bytes)
+Output written on AbaqusModel_2dshell_beam_Index_v0.pdf (6 pages, 401448 bytes)
 .
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
