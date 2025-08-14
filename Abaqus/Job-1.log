@@ -1,23 +1,24 @@
 Analysis initiated from SIMULIA established products
 Abaqus JOB Job-1
-Abaqus 2020
+Abaqus 2024
+USING MEMORY DOUG-LEA ALLOCATOR
 Abaqus License Manager checked out the following licenses:
 Abaqus/Explicit checked out 5 tokens from Flexnet server cocoec-lic2.cec.sc.edu.
-<391 out of 434 licenses remain available>.
-Abaqus Warning: Your Abaqus license will expire in 19 days.
+<475 out of 480 licenses remain available>.
 Begin Analysis Input File Processor
-8/12/2025 11:11:14 AM
+8/14/2025 10:50:08 AM
 Run pre.exe
-8/12/2025 11:11:17 AM
+8/14/2025 10:50:11 AM
 End Analysis Input File Processor
 Begin Abaqus/Explicit Packager
-8/12/2025 11:11:17 AM
+8/14/2025 10:50:11 AM
+PAC_NUM_THREADS VALUE: 1
 Run package.exe
-8/12/2025 11:11:20 AM
+8/14/2025 10:50:14 AM
 End Abaqus/Explicit Packager
 Begin Abaqus/Explicit Analysis
-8/12/2025 11:11:20 AM
+8/14/2025 10:50:14 AM
 Run explicit.exe
-8/12/2025 11:14:53 AM
+8/14/2025 10:54:26 AM
 End Abaqus/Explicit Analysis
 Abaqus JOB Job-1 COMPLETED
