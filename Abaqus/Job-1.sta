@@ -1,4 +1,4 @@
-Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 10:50:13
+Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 13:46:14
 -------------------------------------------------------------------------------
  MODEL INFORMATION (IN GLOBAL X-Y COORDINATES)
 -------------------------------------------------------------------------------
@@ -24,35 +24,35 @@ Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 10:50:13
   linearization about the initial state.
 
 
-   Initial time increment = 3.81279E-08
+   Initial time increment = 4.78225E-08
 
    Statistics for all elements:
-      Mean = 3.81281E-08
-      Standard deviation = 7.52886E-11
+      Mean = 4.78229E-08
+      Standard deviation = 0.0000
 
    Most critical elements:
     Element number   Rank    Time increment   Increment ratio
     (Instance name)
    ----------------------------------------------------------
-         212          1       3.812793E-08      1.000000E+00
+         212          1       4.782252E-08      1.000000E+00
     PART-1-1
-         248          2       3.812793E-08      1.000000E+00
+         248          2       4.782252E-08      1.000000E+00
     PART-1-1
-         211          3       3.812795E-08      9.999993E-01
+         477          3       4.782257E-08      9.999991E-01
     PART-1-1
-         213          4       3.812795E-08      9.999993E-01
+         478          4       4.782257E-08      9.999991E-01
     PART-1-1
-         214          5       3.812795E-08      9.999993E-01
+         513          5       4.782257E-08      9.999991E-01
     PART-1-1
-         216          6       3.812795E-08      9.999993E-01
+         514          6       4.782257E-08      9.999991E-01
     PART-1-1
-         247          7       3.812795E-08      9.999993E-01
+         211          7       4.782258E-08      9.999989E-01
     PART-1-1
-         249          8       3.812795E-08      9.999993E-01
+         213          8       4.782258E-08      9.999989E-01
     PART-1-1
-         250          9       3.812795E-08      9.999993E-01
+         214          9       4.782258E-08      9.999989E-01
     PART-1-1
-         252         10       3.812795E-08      9.999993E-01
+         216         10       4.782258E-08      9.999989E-01
     PART-1-1
 
 
@@ -61,7 +61,7 @@ Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 10:50:13
 
 
 
-Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 10:50:16
+Abaqus/Explicit 2024                             DATE 14-Aug-2025  TIME 13:46:17
 
 The single precision Abaqus/Explicit executable will be used in this analysis.
 
@@ -77,7 +77,7 @@ The single precision Abaqus/Explicit executable will be used in this analysis.
   Scaling factor:  1.0000
               STEP     TOTAL      WALL      STABLE    CRITICAL    KINETIC      TOTAL
 INCREMENT     TIME      TIME      TIME   INCREMENT     ELEMENT     ENERGY     ENERGY
-        0  0.000E+00 0.000E+00  00:00:00 3.813E-08         248  0.000E+00  0.000E+00
+        0  0.000E+00 0.000E+00  00:00:00 4.782E-08         248  0.000E+00  0.000E+00
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     0, of     20, at step time 0.000E+00
 
@@ -85,78 +85,78 @@ Output Field Frame Number     0, of     20, at step time 0.000E+00
             300000), AND IT MAY BE AFFECTED BY ROUND-OFF ERRORS. RUNNING THE
             DOUBLE PRECISION EXECUTABLE IS RECOMMENDED.
 
-    65511  2.500E-03 2.500E-03  00:00:11 3.813E-08         248  0.000E+00  0.000E+00
+    52284  2.500E-03 2.500E-03  00:00:09 4.782E-08         248  0.000E+00  0.000E+00
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     1, of     20, at step time 2.500E-03
-   130984  5.000E-03 5.000E-03  00:00:24 3.813E-08         248  1.617E-11  1.617E-11
+   104551  5.000E-03 5.000E-03  00:00:19 4.782E-08         248  1.649E-11  1.649E-11
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     2, of     20, at step time 5.000E-03
-   196456  7.500E-03 7.500E-03  00:00:36 3.813E-08         248  7.295E-05 -1.471E-09
+   156674  7.500E-03 7.500E-03  00:00:29 4.782E-08         477  7.683E-04 -2.388E-08
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     3, of     20, at step time 7.500E-03
-   261928  1.000E-02 1.000E-02  00:00:48 3.813E-08         248  7.180E-04 -1.515E-07
+   209245  1.000E-02 1.000E-02  00:00:39 4.782E-08         514  1.552E-06 -7.823E-08
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     4, of     20, at step time 1.000E-02
+   261879  1.250E-02 1.250E-02  00:00:50 4.782E-08         477  3.400E-04 -1.998E-07
+INSTANCE WITH CRITICAL ELEMENT: PART-1-1
+Output Field Frame Number     5, of     20, at step time 1.250E-02
 
 ***WARNING: THE ANALYSIS REACHED A LARGE NUMBER OF INCREMENTS (300000), AND IT
             MAY BE AFFECTED BY ROUND-OFF ERRORS. RUNNING THE DOUBLE PRECISION
             EXECUTABLE IS RECOMMENDED.
 
-   327400  1.250E-02 1.250E-02  00:01:00 3.813E-08         248  8.348E-05 -2.845E-07
-INSTANCE WITH CRITICAL ELEMENT: PART-1-1
-Output Field Frame Number     5, of     20, at step time 1.250E-02
-   392872  1.500E-02 1.500E-02  00:01:12 3.813E-08         248  3.082E-04 -5.006E-07
+   314514  1.500E-02 1.500E-02  00:01:00 4.782E-08         477  4.191E-04 -3.462E-07
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     6, of     20, at step time 1.500E-02
-   459571  1.750E-02 1.750E-02  00:01:25 3.813E-08         476  3.610E-05 -6.691E-07
+   366389  1.750E-02 1.750E-02  00:01:10 4.782E-08         477  1.225E-04 -5.059E-07
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     7, of     20, at step time 1.750E-02
-   526680  2.000E-02 2.000E-02  00:01:38 3.813E-08         476  1.838E-04 -8.736E-07
+   418011  2.000E-02 2.000E-02  00:01:20 4.782E-08         516  5.461E-09 -6.418E-07
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     8, of     20, at step time 2.000E-02
-   593789  2.250E-02 2.250E-02  00:01:50 3.813E-08         476  7.210E-08 -1.201E-06
+   469633  2.250E-02 2.250E-02  00:01:30 4.782E-08         516  6.168E-05 -8.070E-07
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number     9, of     20, at step time 2.250E-02
-   660898  2.500E-02 2.500E-02  00:02:03 3.813E-08         476  9.075E-05 -1.540E-06
+   521255  2.500E-02 2.500E-02  00:01:40 4.782E-08         477  1.102E-04 -1.142E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    10, of     20, at step time 2.500E-02
-   728007  2.750E-02 2.750E-02  00:02:16 3.813E-08         476  6.227E-06 -1.919E-06
+   572878  2.750E-02 2.750E-02  00:01:50 4.782E-08         477  6.957E-05 -1.341E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    11, of     20, at step time 2.750E-02
-   795116  3.000E-02 3.000E-02  00:02:28 3.813E-08         250  3.533E-05 -2.301E-06
+   624500  3.000E-02 3.000E-02  00:02:00 4.782E-08         477  1.276E-05 -1.583E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    12, of     20, at step time 3.000E-02
-   862225  3.250E-02 3.250E-02  00:02:41 3.813E-08         476  1.150E-05 -2.885E-06
+   676122  3.250E-02 3.250E-02  00:02:10 4.782E-08         477  1.539E-06 -2.011E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    13, of     20, at step time 3.250E-02
-   929333  3.500E-02 3.500E-02  00:02:53 3.813E-08         476  1.027E-05 -3.243E-06
+   727744  3.500E-02 3.500E-02  00:02:20 4.782E-08         477  1.794E-05 -2.503E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    14, of     20, at step time 3.500E-02
-   996442  3.750E-02 3.750E-02  00:03:06 3.813E-08         476  1.055E-05 -3.897E-06
+   779367  3.750E-02 3.750E-02  00:02:30 4.782E-08         477  2.280E-05 -2.830E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    15, of     20, at step time 3.750E-02
-  1063551  4.000E-02 4.000E-02  00:03:19 3.813E-08         476  1.792E-06 -4.998E-06
+   830989  4.000E-02 4.000E-02  00:02:39 4.782E-08         477  1.114E-05 -3.129E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    16, of     20, at step time 4.000E-02
-  1130660  4.250E-02 4.250E-02  00:03:32 3.813E-08         476  6.931E-06 -6.167E-06
+   882611  4.250E-02 4.250E-02  00:02:49 4.782E-08         477  1.050E-06 -3.888E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    17, of     20, at step time 4.250E-02
-  1197769  4.500E-02 4.500E-02  00:03:44 3.813E-08         476  4.364E-08 -7.308E-06
+   934233  4.500E-02 4.500E-02  00:02:59 4.782E-08         477  1.074E-06 -4.753E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    18, of     20, at step time 4.500E-02
-  1264878  4.750E-02 4.750E-02  00:03:57 3.813E-08         476  3.582E-06 -8.142E-06
+   985855  4.750E-02 4.750E-02  00:03:09 4.782E-08         477  4.531E-06 -5.691E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Output Field Frame Number    19, of     20, at step time 4.750E-02
-  1331987  5.000E-02 5.000E-02  00:04:10 3.813E-08         476  1.400E-07 -8.712E-06
+  1037478  5.000E-02 5.000E-02  00:03:19 4.782E-08         477  4.429E-06 -6.542E-06
 INSTANCE WITH CRITICAL ELEMENT: PART-1-1
 Restart Number  1 at 5.00000E-02
 Output Field Frame Number    20, of     20, at step time 5.000E-02
   EXPLICIT EXECUTABLE TIME SUMMARY
-       USER TIME (SEC)      =   243.70
-       SYSTEM TIME (SEC)    =   1.3000
-       WALLCLOCK TIME (SEC) =          250
+       USER TIME (SEC)      =   191.70
+       SYSTEM TIME (SEC)    =   1.2000
+       WALLCLOCK TIME (SEC) =          199
               INIT (SEC) =          0
-              MAIN (SEC) =        250
+              MAIN (SEC) =        199
 
   THE ANALYSIS HAS COMPLETED SUCCESSFULLY
 
