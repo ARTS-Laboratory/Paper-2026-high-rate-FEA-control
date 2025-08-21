@@ -1,0 +1,13 @@
+Add to bottom of frequency analysis .inp:
+
+** Exporting Global Mass and Stiffness Matrices
+*STEP, NAME=Global_Matrices
+*MATRIX GENERATE, STIFFNESS, MASS
+*MATRIX OUTPUT, STIFFNESS, MASS, FORMAT=MATRIX INPUT
+*END STEP
+
+Enter in Command Prompt:
+
+abaqus job=Job-2 input=Job-2.inp 
+or 
+abaqus job=Job-2 input="Z:\Documents\Abaqus\Working_Direct\TrotterPCB_03\Job-2.inp"
