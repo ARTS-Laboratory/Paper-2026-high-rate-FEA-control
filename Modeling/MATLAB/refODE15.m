@@ -440,29 +440,40 @@ fprintf('%-25s %-12.2f %-12.2f %-12.2f\n', 'RMS Accel (dB)', ...
         rms_a_free_dB, rms_a_pid_dB, rms_improvement);
 
 %% Export uncontrolled displacement timeseries to TXT
-% Make sure the folder exists (already done earlier in your script)
-saveDir = 'C:\Users\trott\Documents\Paper-2026-high-rate-FEA-control\Abaqus';
-if ~exist(saveDir, 'dir')
-    mkdir(saveDir);
-end
+% % Make sure the folder exists (already done earlier in your script)
+% saveDir = 'C:\Users\trott\Documents\Paper-2026-high-rate-FEA-control\Abaqus';
+% if ~exist(saveDir, 'dir')
+%     mkdir(saveDir);
+% end
+% 
+% % Build full file path
+% outFile = fullfile(saveDir, 'XY_MATLAB.txt');
+% 
+% % Two columns: time [s], displacement [m]
+% uncontrolled_data = [t(:), W_free(mid_dof,:).'];  
+% 
+% % Write to tab-delimited text file
+% writematrix(uncontrolled_data, outFile, 'Delimiter', 'tab');
+% 
+% fprintf('Uncontrolled timeseries exported to:\n  %s\n', outFile);
+% 
+% figure('Units','inches','Position',[1 1 4 2.2]);
+% plot(1e3*t, 1e3*W_free(mid_dof,:), 'b-', 'LineWidth', 1.2);
+% xlabel('Time (ms)', 'FontName','Times New Roman','FontSize',11);
+% ylabel('Displacement (mm)', 'FontName','Times New Roman','FontSize',11);
+% title('Uncontrolled Midpoint Displacement', 'FontName','Times New Roman','FontSize',11);
+% grid on; box on;
 
-% Build full file path
-outFile = fullfile(saveDir, 'XY_MATLAB.txt');
-
-% Two columns: time [s], displacement [m]
-uncontrolled_data = [t(:), W_free(mid_dof,:).'];  
-
-% Write to tab-delimited text file
-writematrix(uncontrolled_data, outFile, 'Delimiter', 'tab');
-
-fprintf('Uncontrolled timeseries exported to:\n  %s\n', outFile);
-
-figure('Units','inches','Position',[1 1 4 2.2]);
-plot(1e3*t, 1e3*W_free(mid_dof,:), 'b-', 'LineWidth', 1.2);
-xlabel('Time (ms)', 'FontName','Times New Roman','FontSize',11);
-ylabel('Displacement (mm)', 'FontName','Times New Roman','FontSize',11);
-title('Uncontrolled Midpoint Displacement', 'FontName','Times New Roman','FontSize',11);
+%% --- Simple midpoint displacement time-series (uncontrolled) ---
+figure('Units','inches','Position',[1 1 5 3]);
+plot(1e3*t, 1e3*W_free(mid_dof,:), 'LineWidth', 1.4);
+xlabel('time (ms)', 'FontName','Times New Roman', 'FontSize', 12);
+ylabel('midpoint displacement (mm)', 'FontName','Times New Roman', 'FontSize', 12);
+%title('Midpoint Displacement — Uncontrolled', 'FontName','Times New Roman', 'FontSize', 12);
 grid on; box on;
+ylim([-0.27 0.27]);      % adjust if needed
+set(gca,'FontName','Times New Roman','FontSize',11);
+
 
 %% Helper function to print -- for NaNs
 function out = settle_free_ms_str(val)
